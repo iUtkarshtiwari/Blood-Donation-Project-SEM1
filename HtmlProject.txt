@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">  <!--Href link it with another page|rel will relate the connected page as styling page |whose type is text type which contsin css codes-->
+    <title>Document</title>
+    
+</head>
+<style>
+    
+    .Donor #submit{
+        padding-left: 100px;
+        height: 30px;
+        width: 50px;
+        }
+    .Donor{
+        font-size: 30px;
+        border:  solid black;
+        width: 300px;
+        color: chartreuse;
+        text-transform: uppercase;
+        /* padding-left: 50px; */                                             /*  ******** */
+        background-color: rgb(216, 21, 37);
+        /* padding-left: 50px; */
+    }
+    .Donor #z{
+        padding-left: 30px;
+        font-weight: bolder;
+        font-size: 33px;
+    }
+
+    .Donor img{
+        position: absolute;
+        right: 4%;
+        top: 300px;
+        height: 240px;
+        width: 955px;
+        border: 3px solid black;
+
+    }
+    .Donor #me{
+        font-size: 20px;
+        font-weight: bold;
+        border: auto ;
+        color:rgb(245, 236, 236);
+        
+        
+    }
+.logo{
+    /* border: 2px solid black; */
+    /* width: 200px; */
+    text-align: center;
+}
+.logo .logo_1{
+        background-color: red;
+        color: white;
+        font-weight: bolder;
+        border:2px solid yellow;
+        width: 250px;
+        text-align: center;
+        border-radius: 100%;
+        padding: 10px;
+    }
+    .logo .logo_1 img{
+        width: 40px;
+        border-radius: 100%;
+    }
+    .navbar{
+        border: 1px solid black;   /*to give border for list tags*/
+        background-color: brown;
+        margin: 0px;
+        /* padding: 5px; */
+    }
+    .navbar > ul{
+        list-style-type: none;        /*to remove List points*/
+    }
+    .navbar > ul > li{
+        display: inline;
+        padding : 6px;
+        color: white;
+        text-decoration: none;
+        font-size: 35px;
+        /* border: 1px solid black; */
+        border-radius: 7px;
+        border: 0.5px solid black;
+        margin:0px;        
+        /* background-color: rgb(253, 87, 57); */
+        
+    }
+
+    .navbar ul li a{
+        text-decoration: none;     
+        color: black;
+        padding: 10px;
+    }
+
+    li:hover{
+        background-color: rgb(0, 255, 255);
+        border: 1px solid black;
+    } 
+    .main{
+        /* text-align: center; */
+        /* text-decoration: dotted; */
+        color:red;
+        font-weight: bolder;
+        font-size: 90px;
+        margin-top: 50px; 
+        text-overflow: none; 
+        position: absolute;
+        padding-left: 420px;
+        /* background-color: chartreuse; */
+
+    }
+    #city{ 
+        font-size: 20px;
+        font-weight: bold;
+        color:rgb(245, 236, 236); 
+        
+    }
+    #p1{
+        font-size: 17px;
+        font-weight: bold;
+        color: rgb(245, 236, 236);
+    }
+    #Area{
+        font-size: 17px;
+        font-weight: bold;
+        color:rgb(245, 236, 236);
+
+    }
+    #donation th{
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: darkgray;
+            color:indigo;
+            font-size: 40px;
+            border:5px solid red;
+            border-radius: 7px;
+        }
+        #feedback{
+            color: #ddd;
+            border-radius: 5px;
+            background-color: #333;
+            padding: 20px;
+        }
+        body img{
+            background-repeat: no-repeat;
+        }
+    
+</style>
+<body background="photos.png">
+    
+    <div class="main">BLOOD DONATION</div>
+    <div class="logo">
+    <div class="logo_1">
+        <img src="blood1.jpg">
+        <h2>One step<br>Towards Humanity</h2>
+    </div>
+</div>
+
+<br>
+    <div class="navbar">`
+        <ul>
+            <li>
+                <a href="register.html">
+                    Registers
+                </a>
+            </li>
+            <li>
+                <a href="why donate blood  utkarsh.html">
+                    Why Donate Blood
+                </a>
+            </li>
+            <li>
+                <a href="1who can give blood.html">
+                    Who can give blood
+                </a>
+            </li>
+            <li>
+                <a href="image (1).jpeg">
+                    Refer a Friend
+                </a>
+            </li>
+            <li>
+                <a href="contactus.html">
+                    Contact Us
+                </a>
+            </li>
+        </ul>
+    </div><br>
+<!-- MIDDLE PART OF WEB PAGE -->
+
+<div class="Donor">
+    <div id="z">Find a donor</div>
+    <br>
+    <label id="me">STATE</label>
+    
+        <select>
+        <optgroup label="Choose State"> </optgroup>
+        <option label="Chooose State"></option>
+            <option value="state">Andhra Pradesh</option>
+            <option value="state">Arunachal  Pradesh</option>
+            <option value="state">Assam</option>
+            <option value="state">Bihar</option>
+            <option value="state">Chattisgarh</option>
+            <option value="state">Goa</option>
+            <option value="state">Gujarat</option>
+            <option value="state">Haryana</option>
+            <option value="state">Himachal Pradesh</option>
+            <option value="state">Jharkhand</option>
+            <option value="state">Karnataka</option>
+            <option value="state">Kerela</option>
+            <option value="state">Madhya Pradesh</option>
+            <option value="state">Maharashtra</option>
+            <option value="state">Manipur</option>
+            <option value="state">Meghalaya</option>
+            <option value="state">Mizoram</option>
+            <option value="state">Nagaland</option>
+            <option value="state">Odisha</option>
+            <option value="state">Punjab</option>
+            <option value="state">Rajasthan</option>
+            <option value="state">Sikkim</option>
+            <option value="state">Tamil Nadu</option>
+            <option value="state">Telangana</option>
+            <option value="state">Tripura</option>
+            <option value="state">Uttrakhand</option>
+            <option value="state">Uttar Pradesh</option>
+            <option value="state">West Bengal</option>
+
+        </select><br> 
+        <label id="city">CITY</label>
+        
+        <select>
+        <optgroup label="Choose CITY"> </optgroup>
+        <option label="Chooose CITY"></option>
+            <option value="Andhra Pradesh">Nellore</option>
+            <option value="Arunachal Pradesh">dargelling</option>
+            <option value="state">Assam</option>
+            <option value="state">Bihar</option>
+            <option value="state">Chattisgarh</option>
+            <option value="state">Goa</option>
+            </select><br>
+            
+            <label id="Area">CITY</label>
+            
+        <select>
+        <optgroup label="Choose Area"> </optgroup>
+        <option label="Chooose Area"></option>
+            <option value="Andhra Pradesh">Nellore</option>
+            <option value="Arunachal Pradesh">dargelling</option>
+            <option value="state">Assam</option>
+            <option value="state">Bihar</option>
+            <option value="state">Chattisgarh</option>
+            <option value="state">Goa</option>
+            </select><br>
+
+            <label id="p1">BLOOD GROUP</label>
+        <select>
+        <optgroup label="BLOOD GROUP "> </optgroup>
+        <option label="BLOOD GROUP"></option>
+            <option value="Blood Group">O-></option>
+            <option value="Blood Group">O+</option>
+            <option value="Blood Group">AB-</option>
+            <option value="Blood Group">A-</option>
+            <option value="Blood Group">A+</option>
+            <option value="Blood Group">AB+</option>
+            <option value="Blood Group">B+</option>
+            <option value="Blood Group">B-</option>
+
+            </select>
+            <a href="#" id="submit"> <input type="submit" value="SUBMIT"></a>                   <!--  <input type="submit" value="SUBMIT">             LINK -->
+            <img src="support us.png">
+</div>
+
+</div>
+<br>
+<br>
+<style>
+    #donation #tr1{
+        background-color: rgb(245, 188, 1);
+        border-radius: 9px;
+        padding-left: 50px;
+        
+
+    }
+    #thc1 {
+        font-size:  20px;
+        font-weight: bold;
+        background-color:coral;
+        color: chartreuse;
+        border:3px solid black
+    } 
+    #thc2{
+        font-size: 20px;
+        font-weight: bold;
+        background-color: darkgoldenrod;
+        color: aquamarine;
+        border: 3px solid black;
+    }
+    #thc3{
+        font-size: 20px;
+        font-weight: bold;
+        background-color: rgb(94, 255, 0);
+        color: rgb(48, 34, 180);
+        border: 3px solid black;
+    }
+</style>
+<table id="donation">
+    <tr id="tr1">
+    <th id="thr1">HEALTH HISTORY</th>
+    <th id="thr2">Your Donation</th>
+
+    <th id="thr3">Refreshment and Recovery</th>
+    </tr>
+    <tr>
+    <td id="thc1">* You’ll answer a few questions about your health history and places</td>
+    <td id='thc2'>--> If you’re donating whole blood, we’ll cleanse an area on your arm and insert a brand new sterile needle for the blood draw. (This feels like a quick pinch and is over in seconds.)</td>
+    <td id="thc3">After donating blood, you’ll have a snack and something to drink in the refreshment area.</td>
+    </tr>
+    
+    <tr><td id="thc1">* You’ll tell us about any prescription and/or over the counter medications that may be in your system.</td>
+        <td id='thc2'>-->Other types of donations, such as platelets, are made using an apheresis machine which will be connected to both arms.</td>
+        <td id="thc3">You’ll leave after 10-15 minutes and continue your normal routine.</td>
+    </tr>
+    <tr>
+        <td id="thc1">* You’ve traveled, during a private and confidential interview.</td>
+        <td id='thc2'>-->A whole blood donation takes about 8-10 minutes, during which you’ll be seated comfortably or lying down.</td>
+        <td id="thc3">Enjoy the feeling of accomplishment knowing you are helping to save lives.</td>
+    </tr>
+    <tr><td id="thc1">* We’ll check your temperature, pulse, blood pressure and hemoglobin level. </td>
+        <td id='thc2'>--> When approximately a pint of whole blood has been collected, the donation is complete and a staff person will place a bandage on your arm.
+            For platelets, the apheresis machine will collect a small amount of blood, remove the platelets, and return the rest of the blood through your other arm; this cycle will be repeated several times over about 2 hours. </td>
+        <td id="thc3">Enjoy the feeling of accomplishment knowing you are helping to save lives.Take a selfie, or simply share your good deed with friends. It may inspire them to become blood donors. </td>
+    <br>
+    </tr>
+
+</table>
+<br>
+<br>
+    <div id="feedback">
+        <form action="/action_page.php">
+        <label for="email">Email id</label>
+        <input type="email" id="email" name="Email id" placeholder="Your emailid..">
+        <label for="feedback">You're feedback</label>
+        <input type="text" id="feedback" name="feedback" placeholder="You're feedback..">
+        <input type="submit" value="submit">
+        </form>
+    </div>
+</body>
+</html>

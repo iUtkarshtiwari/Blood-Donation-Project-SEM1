@@ -1,0 +1,721 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body Bgcolor="Black">
+    <div>Hello this program is for you     <a href="HtmlProject.html">Click here</a></div>
+
+<style>
+    div{
+        font-size: 50px;
+        color: aqua;
+        text-align: center;
+        padding-top: 250px;
+    }
+    a{
+        color: red;
+    }
+</style>
+</body>
+</html>
+
+
+
+
+<!--HtmlProject.html-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">  <!--Href link it with another page|rel will relate the connected page as styling page |whose type is text type which contsin css codes-->
+    <title>Document</title>
+    
+</head>
+<style>
+    
+    .Donor #submit{
+        padding-left: 100px;
+        height: 30px;
+        width: 50px;
+        }
+    .Donor{
+        font-size: 30px;
+        border:  solid black;
+        width: 300px;
+        color: chartreuse;
+        text-transform: uppercase;
+        /* padding-left: 50px; */                                             /*  ******** */
+        background-color: rgb(216, 21, 37);
+        /* padding-left: 50px; */
+    }
+    .Donor #z{
+        padding-left: 30px;
+        font-weight: bolder;
+        font-size: 33px;
+    }
+
+    .Donor img{
+        position: absolute;
+        right: 4%;
+        top: 300px;
+        height: 240px;
+        width: 955px;
+        border: 3px solid black;
+
+    }
+    .Donor #me{
+        font-size: 20px;
+        font-weight: bold;
+        border: auto ;
+        color:rgb(245, 236, 236);
+        
+        
+    }
+.logo{
+    /* border: 2px solid black; */
+    /* width: 200px; */
+    text-align: center;
+}
+.logo .logo_1{
+        background-color: red;
+        color: white;
+        font-weight: bolder;
+        border:2px solid yellow;
+        width: 250px;
+        text-align: center;
+        border-radius: 100%;
+        padding: 10px;
+    }
+    .logo .logo_1 img{
+        width: 40px;
+        border-radius: 100%;
+    }
+    .navbar{
+        border: 1px solid black;   /*to give border for list tags*/
+        background-color: brown;
+        margin: 0px;
+        /* padding: 5px; */
+    }
+    .navbar > ul{
+        list-style-type: none;        /*to remove List points*/
+    }
+    .navbar > ul > li{
+        display: inline;
+        padding : 6px;
+        color: white;
+        text-decoration: none;
+        font-size: 35px;
+        /* border: 1px solid black; */
+        border-radius: 7px;
+        border: 0.5px solid black;
+        margin:0px;        
+        /* background-color: rgb(253, 87, 57); */
+        
+    }
+
+    .navbar ul li a{
+        text-decoration: none;     
+        color: black;
+        padding: 10px;
+    }
+
+    li:hover{
+        background-color: rgb(0, 255, 255);
+        border: 1px solid black;
+    } 
+    .main{
+        /* text-align: center; */
+        /* text-decoration: dotted; */
+        color:red;
+        font-weight: bolder;
+        font-size: 90px;
+        margin-top: 50px; 
+        text-overflow: none; 
+        position: absolute;
+        padding-left: 420px;
+        /* background-color: chartreuse; */
+
+    }
+    #city{ 
+        font-size: 20px;
+        font-weight: bold;
+        color:rgb(245, 236, 236); 
+        
+    }
+    #p1{
+        font-size: 17px;
+        font-weight: bold;
+        color: rgb(245, 236, 236);
+    }
+    #Area{
+        font-size: 17px;
+        font-weight: bold;
+        color:rgb(245, 236, 236);
+
+    }
+    #donation th{
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            background-color: darkgray;
+            color:indigo;
+            font-size: 40px;
+            border:5px solid red;
+            border-radius: 7px;
+        }
+        #feedback{
+            color: #ddd;
+            border-radius: 5px;
+            background-color: #333;
+            padding: 20px;
+        }
+        body img{
+            background-repeat: no-repeat;
+        }
+    
+</style>
+<body background="photos.png">
+    
+    <div class="main">BLOOD DONATION</div>
+    <div class="logo">
+    <div class="logo_1">
+        <img src="blood1.jpg">
+        <h2>One step<br>Towards Humanity</h2>
+    </div>
+</div>
+
+<br>
+    <div class="navbar">`
+        <ul>
+            <li>
+                <a href="register.html">
+                    Registers
+                </a>
+            </li>
+            <li>
+                <a href="why donate blood Yasir.html">
+                    Why Donate Blood
+                </a>
+            </li>
+            <li>
+                <a href="1who can give blood.html">
+                    Who can give blood
+                </a>
+            </li>
+            <li>
+                <a href="image (1).jpeg">
+                    Refer a Friend
+                </a>
+            </li>
+            <li>
+                <a href="contactus.html">
+                    Contact Us
+                </a>
+            </li>
+        </ul>
+    </div><br>
+<!-- MIDDLE PART OF WEB PAGE -->
+
+<div class="Donor">
+    <div id="z">Find a donor</div>
+    <br>
+    <label id="me">STATE</label>
+    
+        <select>
+        <optgroup label="Choose State"> </optgroup>
+        <option label="Chooose State"></option>
+            <option value="state">Andhra Pradesh</option>
+            <option value="state">Arunachal  Pradesh</option>
+            <option value="state">Assam</option>
+            <option value="state">Bihar</option>
+            <option value="state">Chattisgarh</option>
+            <option value="state">Goa</option>
+            <option value="state">Gujarat</option>
+            <option value="state">Haryana</option>
+            <option value="state">Himachal Pradesh</option>
+            <option value="state">Jharkhand</option>
+            <option value="state">Karnataka</option>
+            <option value="state">Kerela</option>
+            <option value="state">Madhya Pradesh</option>
+            <option value="state">Maharashtra</option>
+            <option value="state">Manipur</option>
+            <option value="state">Meghalaya</option>
+            <option value="state">Mizoram</option>
+            <option value="state">Nagaland</option>
+            <option value="state">Odisha</option>
+            <option value="state">Punjab</option>
+            <option value="state">Rajasthan</option>
+            <option value="state">Sikkim</option>
+            <option value="state">Tamil Nadu</option>
+            <option value="state">Telangana</option>
+            <option value="state">Tripura</option>
+            <option value="state">Uttrakhand</option>
+            <option value="state">Uttar Pradesh</option>
+            <option value="state">West Bengal</option>
+
+        </select><br> 
+        <label id="city">CITY</label>
+        
+        <select>
+        <optgroup label="Choose CITY"> </optgroup>
+        <option label="Chooose CITY"></option>
+            <option value="Andhra Pradesh">Nellore</option>
+            <option value="Arunachal Pradesh">dargelling</option>
+            <option value="state">Assam</option>
+            <option value="state">Bihar</option>
+            <option value="state">Chattisgarh</option>
+            <option value="state">Goa</option>
+            </select><br>
+            
+            <label id="Area">CITY</label>
+            
+        <select>
+        <optgroup label="Choose Area"> </optgroup>
+        <option label="Chooose Area"></option>
+            <option value="Andhra Pradesh">Nellore</option>
+            <option value="Arunachal Pradesh">dargelling</option>
+            <option value="state">Assam</option>
+            <option value="state">Bihar</option>
+            <option value="state">Chattisgarh</option>
+            <option value="state">Goa</option>
+            </select><br>
+
+            <label id="p1">BLOOD GROUP</label>
+        <select>
+        <optgroup label="BLOOD GROUP "> </optgroup>
+        <option label="BLOOD GROUP"></option>
+            <option value="Blood Group">O-></option>
+            <option value="Blood Group">O+</option>
+            <option value="Blood Group">AB-</option>
+            <option value="Blood Group">A-</option>
+            <option value="Blood Group">A+</option>
+            <option value="Blood Group">AB+</option>
+            <option value="Blood Group">B+</option>
+            <option value="Blood Group">B-</option>
+
+            </select>
+            <a href="#" id="submit"> <input type="submit" value="SUBMIT"></a>                   <!--  <input type="submit" value="SUBMIT">             LINK -->
+            <img src="support us.png">
+</div>
+
+</div>
+<br>
+<br>
+<style>
+    #donation #tr1{
+        background-color: rgb(245, 188, 1);
+        border-radius: 9px;
+        padding-left: 50px;
+        
+
+    }
+    #thc1 {
+        font-size:  20px;
+        font-weight: bold;
+        background-color:coral;
+        color: chartreuse;
+        border:3px solid black
+    } 
+    #thc2{
+        font-size: 20px;
+        font-weight: bold;
+        background-color: darkgoldenrod;
+        color: aquamarine;
+        border: 3px solid black;
+    }
+    #thc3{
+        font-size: 20px;
+        font-weight: bold;
+        background-color: rgb(94, 255, 0);
+        color: rgb(48, 34, 180);
+        border: 3px solid black;
+    }
+</style>
+<table id="donation">
+    <tr id="tr1">
+    <th id="thr1">HEALTH HISTORY</th>
+    <th id="thr2">Your Donation</th>
+
+    <th id="thr3">Refreshment and Recovery</th>
+    </tr>
+    <tr>
+    <td id="thc1">* You’ll answer a few questions about your health history and places</td>
+    <td id='thc2'>--> If you’re donating whole blood, we’ll cleanse an area on your arm and insert a brand new sterile needle for the blood draw. (This feels like a quick pinch and is over in seconds.)</td>
+    <td id="thc3">After donating blood, you’ll have a snack and something to drink in the refreshment area.</td>
+    </tr>
+    
+    <tr><td id="thc1">* You’ll tell us about any prescription and/or over the counter medications that may be in your system.</td>
+        <td id='thc2'>-->Other types of donations, such as platelets, are made using an apheresis machine which will be connected to both arms.</td>
+        <td id="thc3">You’ll leave after 10-15 minutes and continue your normal routine.</td>
+    </tr>
+    <tr>
+        <td id="thc1">* You’ve traveled, during a private and confidential interview.</td>
+        <td id='thc2'>-->A whole blood donation takes about 8-10 minutes, during which you’ll be seated comfortably or lying down.</td>
+        <td id="thc3">Enjoy the feeling of accomplishment knowing you are helping to save lives.</td>
+    </tr>
+    <tr><td id="thc1">* We’ll check your temperature, pulse, blood pressure and hemoglobin level. </td>
+        <td id='thc2'>--> When approximately a pint of whole blood has been collected, the donation is complete and a staff person will place a bandage on your arm.
+            For platelets, the apheresis machine will collect a small amount of blood, remove the platelets, and return the rest of the blood through your other arm; this cycle will be repeated several times over about 2 hours. </td>
+        <td id="thc3">Enjoy the feeling of accomplishment knowing you are helping to save lives.Take a selfie, or simply share your good deed with friends. It may inspire them to become blood donors. </td>
+    <br>
+    </tr>
+
+</table>
+<br>
+<br>
+    <div id="feedback">
+        <form action="/action_page.php">
+        <label for="email">Email id</label>
+        <input type="email" id="email" name="Email id" placeholder="Your emailid..">
+        <label for="feedback">You're feedback</label>
+        <input type="text" id="feedback" name="feedback" placeholder="You're feedback..">
+        <input type="submit" value="submit">
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+<!--register.html-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body background="content.png">
+    <style>
+        ul #li1{
+            font-size: 50px;
+            
+        }
+        table #ul1{
+            text-decoration: none;
+        }
+        .content{
+            padding-left: 500px;
+            border:2px solid #3b2e2f;
+            background-image: url(cells.png);
+            background-repeat:no-repeat;
+            background-size: 1346px 600px;  
+        }
+        .see{
+          /* border: 2px solid black; */
+
+        }
+        .row{
+          font-size: 20px;
+        }
+    </style>
+
+    <!-- <table>
+        <ul id="ul1">
+            <li id="li1">LOGIN</li>
+            <LI>USERNAME</LI>
+            <li>
+                <input type="email" id="email" name="Email id" placeholder="Enter Usename.."></li>
+            <li>Password</li>
+            <li>
+                <input type="password" id="password" name="Password" placeholder="Password..">
+            </li>
+        </ul>
+    </table> -->
+    <div class="see">
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+      <br>
+    <div class="content">
+        <br><br>
+        <div class="ab">
+          <!---->
+          <form id="sign-in-form" action="" method="post">
+            <!---->
+            <div class="row">
+              <label for="username">Username</label>
+              <input id="username" name="username" type="text">
+              <br>
+              <br>
+              <!---->
+            </div>
+            <div class="row">
+              <label for="password">Password</label>
+              <input id="password" name="password" value="" type="password">
+              <!---->
+              <!---->
+            </div>
+            <br>
+            <br>
+            <button type="submit" data-aa-app-login-donor="sign in" class="red-button"><div _ngcontent-utk-c47="" class="icon chevron-right"></div>Sign In</button>
+            <div class="centered">
+              <div class="row">
+                
+                <div class="checkbox-wrapper">
+                  <div class="checkbox">
+                    <input name="stayLoggedIn" id="checkbox" type="checkbox">
+                    <label for="checkbox"></label>
+                  
+                  <label for="checkbox" class="keep-signed-in">Keep Me Signed In</label>
+                </div>
+              </div>
+              <br>
+              <br>
+              <div class="row">
+                <br>
+                <a class="a" href="/give.html/reset-password">I Forgot My Username/Password</a>
+              </div>
+            </div>
+          </form>
+        </div>
+        <div a="" class="link-list">
+          <a a="" class="link-create" href="#">I Need to Create an Account</a><!---->
+          <!---->
+        </div>
+        
+            <br>
+            <br>
+            <br>
+          <div a="" class="benefit-module-text"><span style="color: #131312; font-weight: bolder">Account Benefits: </span>Create an account to easily schedule<br> future appointments, manage existing <br>,see your blood type, view results of your mini-physical, <br>and track donation history.</div>
+        </div><!---->
+      </div>
+      </div>
+      
+</body>
+</html>
+
+
+<1-- Blood utkarsh.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .header{
+          background-image: url("content.png");
+            background-color: #F1F1F1;
+            text-align: center;
+            padding: 20px;
+            font-weight: bolder;
+            color:crimson;
+          }
+          
+          .p1{
+            background-image: url("image\ \(2\).jpeg");
+            background-repeat: no-repeat;
+            position: auto 350px;
+            background-color:#65d3f5;
+            text-align:left;
+            padding:20px;
+            
+          }
+          .p2{
+            background-image: url(th.jpeg);
+            /* position: absolute; */
+            
+            /* margin-left: 50px; */
+            background-repeat: no-repeat;
+            background-color:#F1F1F1;
+            /* text-align:left; */
+            position:auto 600px;
+            
+
+            
+          }
+          .p3{
+            background-color:#F1F1F1;
+            text-align:left;
+            padding:20px;
+          }
+    </style>
+    <div class="header">
+        <h1>Why Blood Donation is Important and Who Benefits?</h1>
+    </div><hr>
+    <br>
+    <div class="p1"> 
+        <h1 id="h01">Why is it Important to Donate Blood?</h1> <style>#h01{color: blue; font-weight: bold; padding-left: 550px;}</style>
+        <br>
+        <p id="pa"><style>#pa{padding-left: 550px; font-weight: bold; color: darkorange; font-size: 18px;}
+        </style> 328 million people currently live in the U.S. Each year,<br> approximately 6.8 million people in the U.S donate blood.
+             Annually, this adds up to about 13.6 million<br> units of whole blood collected for donation in the U.S. 
+             The Red Cross provides about 40% of our nation’s <br>blood and blood cell components to donors.
+              Your blood donations are used for patients in need of surgery,<br> cancer treatment and transfusions for blood loss from traumatic injuries.
+               Want to know more about the blood supply in the U.S.?<br> Visit the Facts About <a href="https://www.redcrossblood.org/donate-blood/how-to-donate/how-blood-donations-help/blood-needs-blood-supply.html">Blood Supply page</a>.</p>
+     </div><br>
+    <div class="p2">
+      <br>
+      
+        <h1 id="h02">Why Cancer Patients Need Blood</h1> <style>#h02{color: blue; font-weight: bold; padding-left: 550px;}</style>
+        <br>
+        <p id="pb">For cancer patients, blood transfusions can act as a resource to implement platelets back into the body after heavy treatments such as chemo or radiation therapy.
+
+            <br>For cancer patients, blood cells that are made in the <br>bone marrow are often at risk. This lack of blood cell production can cause chronic diseases over time which may affect organs such as the kidneys, spleen and liver.
+            Blood transfusions are commonly necessary for cancer patients, especially those diagnosed with cancer originating in the bone marrow. If you were recently diagnosed with cancer after a CT chest scan, you may find yourself in need of chemotherapy, surgery, and possibly blood transfusions.
+
+            Cancer treatments and cancer itself can lead patients to require blood and platelet transfusions to save their lives. Keep reading to find out more about blood transfusions among cancer patients</p>
+            <style>#pb{ padding-top:20px; padding-left: 550px; font-weight: bold; color: darkorange; font-size: 18px;}</style>
+    </div><br>
+    <div class="p3"><style>#p5{font-weight: bold; color: darkorange; font-size: 18px;} </style>
+        <h1 id="h03">The Importance of Diversity in the Blood Supply</h1><style>#h03{color: blue; font-weight: bold; padding-left: 350px;}</style>
+        <br>
+        <br>
+        <p id="p5">Maintaining diversity in the blood supply is essential. Some blood types are quite rare and are likeliest to be found among people with shared ancestral origins.
+             Visit our <a href="https://www.redcrossblood.org/donate-blood/blood-types/diversity.html">Blood and Diversity</a> page for more information on the need for diversity in the blood supply.</p>
+    </div>
+</body>
+</html>
+
+<!--Blood.Html-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .header {
+            background-color: #F1F1F1;
+            text-align: center;
+            padding: 20px;
+          }
+       
+          
+          .p1{
+            background-color:#F1F1F1;
+            text-align:left;
+            padding:20px;
+            
+          }
+          .p2{
+            background-color:#F1F1F1;
+            text-align:left;
+            padding:20px;
+            
+          }
+          .p3{
+            background-color:#F1F1F1;
+            text-align:left;
+            padding:20px;
+          }
+    </style>
+    <div class="header">
+        <h1>Who can give blood?</h1>
+    </div><hr>
+    <br>
+    <div class="p1">
+        <h1>Age</h1>
+        <br>
+        <p>You are aged between 18 and 65.
+
+           > In some countries national legislation permits 16–17 year-olds to donate provided that they fulfil the physical and hematological criteria required and that appropriate consent is obtained.
+           > In some countries, regular donors over the age of 65 may be accepted at the discretion of the responsible physician. The upper age limit in some countries are 60. </p>
+     </div><br>
+    <div class="p2">
+        <h1>Weight</h1>
+        <br>
+        <p>You weigh at least 50 kg.
+            
+            > In some countries, donors of whole blood donations should weigh at least 45 kg to donate 350 ml ± 10%</p>
+
+    </div><br>
+    <div class="p3">
+        <h1>Health</h1>
+        <br>
+        <p>You must be in good health at the time you donate.
+
+           > You cannot donate if you have a cold, flu, sore throat, cold sore, stomach bug or any other infection.
+            
+           > If you have recently had a tattoo or body piercing you cannot donate for 6 months from the date of the procedure.  If the body piercing was performed by a registered health professional and any inflammation has settled completely, you can donate blood after 12 hours.
+            
+           > If you have visited the dentist for a minor procedure you must wait 24 hours before donating; for major work wait a month.
+            
+           > You must not donate blood If you do not meet the minimum haemoglobin level for blood donation:
+            
+                A test will be administered at the donation site. In many countries, a haemoglobin level of not less than 12.0 g/dl for females and not less than 13.0 g/dl for males as the threshold.</p>
+    </div>
+</body>
+</html>
+
+
+<!--Contact us-->
+
+<!DOCTYPE html>
+<head>
+  <!-- <link rel="stylesheet" href="#"> -->
+</head>
+<style>
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid black;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  border-radius: 5px;
+  background-color: grey;
+  padding: 20px;
+}
+</style>
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">India</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
